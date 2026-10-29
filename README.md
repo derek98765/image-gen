@@ -35,7 +35,7 @@ Claude Code loads skills from `~/.claude/skills/` (global, all projects) or
 `.claude/skills/` (project-local). To install:
 
 ```bash
-cp -r skills/image-gen ~/.claude/skills/
+git clone https://github.com/derek98765/image-gen.git ~/.claude/skills/image-gen
 ```
 
 Restart Claude Code (or start a new session) so it picks up the new skill.
@@ -44,7 +44,7 @@ Restart Claude Code (or start a new session) so it picks up the new skill.
 
 Ask Claude Code to generate or edit an image, e.g. "generate an icon of a
 lighthouse", "edit this banner to use a dark background", or "make this with
-grok". See `skills/image-gen/SKILL.md` for the full workflow.
+grok". See `SKILL.md` for the full workflow.
 
 > Previously published as `codex-image-gen` (Codex only). GitHub redirects the
 > old repo URL here.
